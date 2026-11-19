@@ -1,0 +1,86 @@
+{
+  "pages": [
+    // 首页
+    {
+      "path": "pages/gift/index/index",
+      "style": {
+        "navigationBarTitleText": "提货卡",
+        "navigationStyle": "custom"
+      }
+    },
+    // 真伪验证
+    {
+      "path": "pages/gift/verify/index",
+      "style": {
+        "navigationBarTitleText": "真伪验证",
+        "navigationStyle": "custom"
+      }
+    },
+    // 发货查询
+    {
+      "path": "pages/gift/query/index",
+      "style": {
+        "navigationBarTitleText": "发货查询",
+        "navigationStyle": "custom"
+      }
+    },
+    // 活动详情/预约提货
+    {
+      "path": "pages/gift/activity/index",
+      "style": {
+        "navigationBarTitleText": "活动详情",
+        "navigationStyle": "custom"
+      }
+    },
+    // 商品详情
+    {
+      "path": "pages/gift/goods-detail/index",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    // 物流详情
+    {
+      "path": "pages/gift/express-detail/index",
+      "style": {
+        "navigationBarTitleText": "物流详情",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "提货卡",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#07c160",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/gift/index/index",
+        "iconPath": "static/images/tabbar/home_gray.png",
+        "selectedIconPath": "static/images/tabbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gift/verify/index",
+        "iconPath": "static/images/tabbar/news_gray.png",
+        "selectedIconPath": "static/images/tabbar/news_active.png",
+        "text": "验证"
+      },
+      {
+        "pagePath": "pages/gift/query/index",
+        "iconPath": "static/images/tabbar/person_gray.png",
+        "selectedIconPath": "static/images/tabbar/person_active.png",
+        "text": "查询"
+      }
+    ]
+  },
+  "easycom": {
+    "uni-ui": "uni-ui/lib/uni-ui/uni-ui.vue"
+  }
+}
